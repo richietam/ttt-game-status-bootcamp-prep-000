@@ -39,7 +39,6 @@ def full?(board)
     if check =! " " || check =! ""
       true
     else
-      false
     end
   end
 end
