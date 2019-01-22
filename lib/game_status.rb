@@ -33,3 +33,13 @@ def won?(board)
     end
   end
 end
+
+def full(board)
+  WIN_COMBINATIONS.each do |check|
+    if check =! " " || check =! ""
+      true
+    else
+      false
+    end
+  end 
+
