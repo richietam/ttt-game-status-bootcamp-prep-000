@@ -37,8 +37,9 @@ end
 def full?(board)
   board.each do |check|
     if check =! " " || check =! ""
-      true
+      return true
     else
+      return false
     end
   end
 end
