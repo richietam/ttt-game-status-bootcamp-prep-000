@@ -43,7 +43,7 @@ counter = 0
     end
     if counter == 9
     return true
-    else 
+    else
     return false
     end
   end
