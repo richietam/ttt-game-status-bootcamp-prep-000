@@ -40,7 +40,6 @@ counter = 0
     if (check == "X" || check == "O")
       counter += 1
       else
-
     end
     if counter == 9
       return true
