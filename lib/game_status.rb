@@ -35,17 +35,5 @@ def won?(board)
 end
 
 def full?(board)
-counter = 0
-  board.each do |check|
-    if (check == "X" || check == "O")
-      counter += 1
-      else
-
-    end
-    if counter == 9
-      return true
-    else
-      return false
-    end
-  end
+  return board.all? { |element| != " "}
 end
