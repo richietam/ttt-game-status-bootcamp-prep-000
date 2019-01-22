@@ -35,6 +35,24 @@ def won?(board)
 end
 
 def full?(board)
+counter = 0
+  board.each do |check|
+    if check = "X" || check = "O"
+    counter += 1
+    else
+    end
+    if counter == 9
+    return true
+    else 
+    return false
+    end
+  end
+end
+
+
+
+
+def full(board)
   board.each do |check|
     if check =! " " || check =! ""
       return true
