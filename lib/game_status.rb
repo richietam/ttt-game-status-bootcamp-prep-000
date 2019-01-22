@@ -29,9 +29,9 @@ def won?(board)
     if pos1 == "X" && pos2 == "X" && pos3 =="X" || pos1 == "O" && pos2 == "O" && pos3 =="O"
       return win_combination
     else
-      false
     end
   end
+  return nil
 end
 
 def full?(board)
