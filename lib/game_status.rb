@@ -34,7 +34,7 @@ def won?(board)
   end
 end
 
-def full(board)
+def full?(board)
   WIN_COMBINATIONS.each do |check|
     if check =! " " || check =! ""
       true
