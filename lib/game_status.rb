@@ -39,12 +39,13 @@ counter = 0
   board.each do |check|
     if check = "X" || check = "O"
     counter += 1
+      if counter == 9
+      return true
+      else
+      return false
+      end
     else
-    end
-    if counter == 9
-    return true
-    else
-    return false
+      return false
     end
   end
 end
