@@ -60,4 +60,5 @@ def winner(board)
     return win_combination[0]
   else
     nil
+  end
 end
