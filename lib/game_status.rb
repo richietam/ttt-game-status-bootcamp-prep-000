@@ -37,7 +37,7 @@ end
 def full?(board)
 counter = 0
   board.each do |check|
-    if check = "X" || check = "O"
+    if check == "X" || check == "O"
     counter += 1
       if counter == 9
       return true
